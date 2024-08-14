@@ -12,10 +12,10 @@ This script focuses on matrix operations, including:
 - **Inverse Matrix Calculation**: Finds the inverse of a 3x3 matrix using elementary row operations.
 
 ### `work2.py`
-This script handles interpolation methods, including:
-- **Linear Interpolation**: Computes the interpolated value between two points.
-- **Polynomial Interpolation**: Uses polynomial fitting to interpolate a value based on three points.
-- **Lagrange Interpolation**: Implements Lagrange interpolation for a set of three points to approximate a value.
+This script focuses on solving systems of linear equations using methods like:
+- **Gaussian Elimination**: Solves a system of linear equations by transforming the matrix into an upper triangular form.
+- **Back Substitution**: Solves for the unknown variables after Gaussian elimination.
+- **Cramer's Rule**: Uses determinants to solve a system of linear equations.
 
 ### `work3.py`
 This script includes functions related to statistical analysis, such as:
@@ -24,11 +24,10 @@ This script includes functions related to statistical analysis, such as:
 - **Linear Regression**: Performs linear regression analysis on a dataset.
 
 ### `work4.py`
-This script focuses on solving systems of linear equations using methods like:
-- **Gaussian Elimination**: Solves a system of linear equations by transforming the matrix into an upper triangular form.
-- **Back Substitution**: Solves for the unknown variables after Gaussian elimination.
-- **Cramer's Rule**: Uses determinants to solve a system of linear equations.
-
+This script handles interpolation methods, including:
+- **Linear Interpolation**: Computes the interpolated value between two points.
+- **Polynomial Interpolation**: Uses polynomial fitting to interpolate a value based on three points.
+- **Lagrange Interpolation**: Implements Lagrange interpolation for a set of three points to approximate a value.
 ## How to Use
 
 1. **Clone the Repository:**
