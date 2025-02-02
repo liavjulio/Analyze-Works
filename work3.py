@@ -48,9 +48,9 @@ def gauss_seidel(a, b, tolerance=0.001, max_iterations=1000):
 
 def main():
     A = np.array([
-        [4, 1, 2],
-        [3, 5, 1],
-        [1, 1, 3]
+        [5, 10, 4],
+        [1, 8, 10],
+        [10, 1, -5]
     ])
     b = np.array([4, 7, 3])
     
